@@ -25,12 +25,13 @@ ProjectBudgetor is a simple and intuitive Python-based desktop application that 
 ```bash
 git clone https://github.com/yourusername/ProjectBudgetor.git
 cd ProjectBudgetor
+cd gui
+python app.py
 ```
 
 ### 2. Set Up Virtual Environment (Optional but Recommended)
 ```bash
 python -m venv venv
-# Activate virtualenv:
 # Windows:
 venv\Scripts\activate
 # macOS/Linux:
@@ -44,34 +45,12 @@ pip install -r requirements.txt
 
 > 📌 **Note**: This project uses only the Python standard library (like `tkinter`, `csv`, `json`, `os`, etc.), so you may not need external packages. If you face import issues, ensure you’re using **Python 3.8+**.
 
----
-
-## 📂 Folder Structure
-
-```
-ProjectBudgetor/
-│
-├── gui/
-│   └── app.py               # Main application file
-│
-├── models/
-│   ├── project.py           # Project class
-│   └── expense.py           # Expense class
-│
-├── data/
-│   └── data.json            # Local storage for all data
-│
-├── README.md                # You're here!
-└── requirements.txt         # Dependency list (optional)
-```
-
----
 
 ## ▶️ Running the Application
 
 Run the GUI:
 ```bash
-python gui/app.py
+python app.py
 ```
 
 ---
