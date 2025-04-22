@@ -1,0 +1,26 @@
+[
+    {
+        "name": "harsh",
+        "budget": 15555.0,
+        "expenses": [
+            {
+                "amount": 1555.0,
+                "description": "sss",
+                "category": "sdds",
+                "date": "2025-04-22"
+            }
+        ]
+    },
+    {
+        "name": "harsh llp",
+        "budget": 260000.0,
+        "expenses": [
+            {
+                "amount": 15000.0,
+                "description": "testing",
+                "category": "software ",
+                "date": "2025-04-22"
+            }
+        ]
+    }
+]
