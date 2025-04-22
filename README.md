@@ -21,7 +21,7 @@ ProjectBudgetor is a simple and intuitive Python-based desktop application that 
 
 ## 🚀 Installation & Setup
 
-### 1. Clone the Repository
+### 1. Clone the Repository & Run the project
 ```bash
 git clone https://github.com/yourusername/ProjectBudgetor.git
 cd ProjectBudgetor
